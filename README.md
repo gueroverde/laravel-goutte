@@ -1,4 +1,4 @@
-# Laravel 5 Facade for Goutte
+# Laravel 6 Facade for Goutte
 
 This repository implements a simple [ServiceProvider](https://laravel.com/docs/master/providers) that makes a singleton instance of the Goutte client easily accessible via a [Facade](https://laravel.com/docs/master/facades) in [Laravel 5](http://laravel.com). See [@FriendsOfPHP/Goutte](https://github.com/FriendsOfPHP/Goutte) for more information about the PHP web scraper and its interfaces.
 
@@ -16,15 +16,15 @@ This will add the following lines to your `composer.json` and download the proje
 ```json
 // ./composer.json
 {
-    "name": "weidner/laravel-goutte-test",
+    "name": "gueroverde/laravel-goutte-test",
     "description": "A dummy project used to test the Laravel Goutte Facade.",
 
     // ...
 
     "require": {
         "php": ">=5.5.9",
-        "laravel/framework": "5.2.*",
-        "gueroverde/goutte": "1.0.*",
+        "laravel/framework": "^6.0",
+        "gueroverde/goutte": "1.3.*",
         // ...
     },
 
